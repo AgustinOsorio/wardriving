@@ -81,7 +81,7 @@ Actualmente uno de los mejores equipos para estas tareas es la placa Alfa AWUS-A
 
 # **Instalando el software necesario.**
 
-    1.
+    
 ### Kismet
 
 Kismet es un software de captura de señales inalámbricas que van desde WiFi a RF y BLE.
@@ -116,7 +116,7 @@ Para instalar desde los paquetes prearmados de kismet visitar el link y buscar. 
 
 - sudo apt install kismet
 
-    1.
+    
 ### Instalando GPSD:
 
 GPSD es una aplicación para Linux, la cual nos permite leer un dispositivo GPS conectado de forma serial o por USB al host donde debería estar corriendo.
@@ -124,7 +124,7 @@ GPSD es una aplicación para Linux, la cual nos permite leer un dispositivo GPS 
  Esta combinación de programas nos permite la creación de un mapa de redes WiFi, concatenando las coordenadas que recibe del GPS con los datos de nuevas redes que captura Kismet.
  El resultado es un mapa del WiFi del área recorrida, con lujo de información y detalles.
 
-    1.
+    
 ### Instalando Wiggle:
 
 Wiggle es una aplicación Android la cual nos permite hacer un pequeño wardrive sin necesidad de configurar uno o varios dispositivos, bajar controladores o software complejo de ensamblar.
