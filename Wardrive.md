@@ -102,10 +102,9 @@ Lo primero que deberíamos hacer es instalar Kismet en nuestra computadora.
 4. _git pull_
 5. _cd kismet_
 6. _./configure_
-7. _make_
-8. _make -j$(nproc)_
-9. _sudo make suidinstall_
-10. _sudo usermod -aG kismet $USER_
+7. _make_ ó _make -j$(nproc)_ La diferencia reside en que uno es mononucleo y el otro aprovecha mas nucleos.
+8. _sudo make suidinstall_
+9. _sudo usermod -aG kismet $USER_
 
 De esta forma ya deberíamos tener una instalación fresca y completa de Kismet en nuestro S.O.
  Se incita a que todos los usuarios lo hagan de esta manera, ya que es la forma más controlada, actualizada y completa para instalar Kismet.
